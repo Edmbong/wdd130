@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    
+}
+:root {
+    --primary-color: #35b6dd;
+    --secondary-color: #78afee;
+    --accent1-color: #158d96;
+    --accent2-color: #d690eb;
+  
+    --heading-font: 'Meera Inimai', serif;
+    --paragraph-font: 'Meera Inimai', serif;
+  
+    --nav-background-color: #f7dbd3;
+    --nav-link-color:#a2b675;
+    --nav-hover-link-color: #49153c;
+    --nav-hover-background-color: #3f4912;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer {
+	position: center;
+	bottom: 0;
+	margin: 1rem;
+	border-top: 1px solid #f8f5f5;
+	padding: 0.5rem;
+	color: var(--accent1-color);
+	font-weight: 700;
+	font-style: italic;
+}
+
+section{
+    box-sizing: border-box;
+    border: 1px solid rgb(251, 251, 252);
+    width: 100%;
+    float: left;
+}
